@@ -2,7 +2,7 @@
 
 ## Description
 
-![Card View](img/card-view-callout.png)
+![Card View](./img/card-view-callout.png)
 
 1. **Toolbar:** The [Toolbar](http://www.patternfly.org/pattern-library/forms-and-controls/toolbar/) pattern may include Filter, Sort, Actions, Find and Change View. If the user can add new objects that will appear in the view, and Add action should be included here.
 1. **Card:** The card is a container for displaying content about an object. At a minimum each card should be uniquely identified with the name of the object that it represents.
@@ -24,3 +24,4 @@
 - **Loading State:** If content is not loaded, display the  [Loading State](http://www.patternfly.org/pattern-library/communication/loading-state/) pattern.
 - **Pagination:** Card View can also support pagination. See [Pagination](http://www.patternfly.org/pattern-library/navigation/pagination/) for more details.
 - **Vertical Scroll:** Use a vertical scrollbar as needed. A horizontal scrollbar should NOT be used. Instead, the page containing the Card View should be responsive.
+- **View Selector:** If alternate views are supported, a [View Selector](http://www.patternfly.org/pattern-library/forms-and-controls/view-selector/#design) will be displayed in the top right corner. This will allow the user to switch to another view.
